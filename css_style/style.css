@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+html{ font-size:12px;}
+body{ overflow:hidden;}
+.box{ width:100%; position:relative; top:0; left:0;}
+.nav{ position:fixed; left:0; top:20px; z-index:4; width:96%; margin:0 auto;left:2%; top:20px; box-shadow:8px 8px 6px #000;}
+.nav li{ float:left; width:20%; height:1.8rem; line-height:1.8rem; text-align:center; border:1px solid #006; box-sizing:border-box; position:relative; z-index:3; cursor:pointer; font-size:1rem; font-weight:bold;  text-shadow:4px 4px 2px #fff;border-radius: 3px;}
+.nav li.active{ background:#399; position:relative;  z-index:3;}
+.nav .nav_box{ position:absolute; left:0; top:0; z-index:2; width:20%; height:1.8rem; background: #399;}
+
+.content{ position:absolute; top:0; left:0; z-index:1;}
+
+.home_page{ width:100%; background: url(../img/c33.jpg); background-size:100% 100%; position:relative; top:0; left:0;}
+.home_page img{ width:100%; height:100%;}
+
+#clock{ position:absolute; bottom:2%; left:2%; width:200px; height:200px; }
+#clock .hour {width:6px; height:50px; background:black; position:absolute; left:50%; top:50%; margin-left:-3px; margin-top:-50px; -webkit-transform-origin:center bottom;}
+#clock .min {width:3px; height:70px; background:black; position:absolute; left:50%; top:50%; margin-left:-1px; margin-top:-70px;-webkit-transform-origin:center bottom;}
+#clock .sec {width:1px; height:80px; background:black; position:absolute; left:50%; top:50%; margin-left:-1px; margin-top:-80px;-webkit-transform-origin:center bottom;}
+#clock span.scaler {width:1px; height:4px; background:black; position:absolute; left:50%; top:0; margin-left:-1px; -webkit-transform-origin:1px 100px;}
+#clock span.big_scaler {width:2px; height:7px; background:black; position:absolute; left:50%; top:0; margin-left:-1px; -webkit-transform-origin:1px 100px;}
+#clock span.big_scaler em {font-style:normal; position:absolute; top:16px; width:40px; left:50%; margin-left:-20px; text-align:center;}
+#clock .cap {width:12px; height:12px; position:absolute; background:#666; left:50%; top:50%; margin-left:-6px; margin-top:-6px; border-radius:50%;}
+/*css_worker*/
+.css_worker{ position:relative; top:0; left:0; background:url(../img/6.jpg) no-repeat; background-size:100% 100%;}
+.css_worker .css_worker_box{position:absolute; top:0; left:0; width:90%; height:100%; margin:0 auto; }
+.css_worker .css_worker_box .css_main{ height:70%; width:90%;margin-top:80px; margin-left:10%;position:relative; top:0; left:0;}
+
+
+.css_main_l{ height:98px; width:44px; background:url(../img/l.png) no-repeat; position:absolute; top:40%; left:0; z-index:4;}
+.css_main_r{ height:98px; width:44px; background:url(../img/r.png) no-repeat; position:absolute; top:40%; right:0; z-index:4;}
+
+#ul1{ width:40%; height:45%; position:relative; background:#fff; margin:0 auto; top:30%;}
+#ul1 li{ width:100%; height:100%; position:absolute; top:0; left:0; -webkit-transition:1s all ease; -webkit-transform:perspective(600px) translateX(0px) rotateY(0deg);}
+#ul1 li img{ width:100%; height:100%;}
+
+#ul1 li.l2 {-webkit-transform:perspective(600px) translateX(-60%) rotateY(60deg); z-index:1; opacity:0;}
+#ul1 li.l {-webkit-transform:perspective(600px) translateX(-50%) rotateY(60deg); z-index:2; opacity:1;}
+#ul1 li.cur {z-index:3; opacity:1; cursor:pointer;}
+#ul1 li.r {-webkit-transform:perspective(600px) translateX(50%) rotateY(-60deg); z-index:2; opacity:1;}
+#ul1 li.r2 {-webkit-transform:perspective(600px) translateX(60%) rotateY(-60deg); z-index:1; opacity:0;}
+
+
+/*js_worker*/
+.js_worker{ position:relative; top:0; left:0; background:url(../img/7.jpg) no-repeat; background-size:100% 100%;}
+.js_worker .js_worker_box{position:absolute; top:0; left:0; width:90%; height:100%; }
+.js_worker .js_worker_box .js_box{  height:80%; width:90%;margin-top:80px; margin-left:10%;}
+.js_worker .js_worker_box .js_box div{ width:22%; height:45%; float:left;cursor:pointer; margin:1% 1%; position:relative; top:0; left:0; overflow:hidden;}
+.js_worker .js_worker_box .js_box div img{ width:100%; height:100%;}
+.js_worker .js_worker_box .js_box div span{ position:absolute; top:0; left:-100%; width:100%; height:100%; background:rgba(0,153,255,0.5);filter:alpha(opacity:50); line-height:100%; text-align:center; font-size:30px; color:#fff;}
+
+
+.js_worker .js_worker_box ol{ position:absolute; bottom:3%; left:50%; height:1.5rem; width:10%;}
+.js_worker .js_worker_box ol li{ float:left; width:20%; height:100%; background:#CCC; text-align:center; border-radius:50%; margin-right:4%; cursor:pointer; font-size:1rem; line-height:1.5rem;}
+.js_worker .js_worker_box ol .on{ background:red; cursor:pointer;}
+
+/*H5*/
+.H5{ position:relative; top:0; left:0;}
+.H5 .H5_box{ position:absolute; top:0; left:0; width:100%; height:100%; background: url(../img/c1.jpg)no-repeat; background-size:100% 100%;}
+.H5 .H5_box .H5_main{  height:80%; width:90%;margin:100px auto;}
+#div1{ width:12%; height:40%; margin:20% auto; -webkit-transform-style:preserve-3d; -webkit-transform:perspective(800px) rotateY(0deg);}
+#H5_ul{ width:100%; height:100%; position:relative;-webkit-transform-style:preserve-3d; -webkit-transform:rotateX(0deg);}
+#H5_ul li{ width:100%; height:100%; border:1px solid black; background:yellow; position:absolute; left:0; top:0; -webkit-transform:rotateY(0deg) translateZ(0px); -webkit-transition:0.7s all ease-out; text-align:center; line-height:100%; font-size:30px;}
+
+.myself{ position:relative; top:0; left:0;}
+.myself .myself_box{ position:absolute; top:0; left:0; width:100%; height:100%; background: url(../img/c2.jpg)no-repeat; background-size:100% 100%;}
+
+
+.myself .myself_box .myself_box_main{ height:80%; width:90%;margin:80px auto;}
+.myself .myself_box .myself_box_main ul li span{ width:20rem; height:1rem;line-height:1rem; display:inline-block; font-size:1rem; margin-top:0.2rem;}
+.myself .myself_box .myself_box_main ol{ margin-top:0.5rem;font-size:0.8rem;}
+.myself .myself_box .myself_box_main ol li{ margin-top:0.4rem;}
+

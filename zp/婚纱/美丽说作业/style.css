@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* 顶部导航开始*/
+.header{ hight:38px; background:#f5f5f5; min-width:1220px;  }
+.topnav_con{ height:38px; main-width:1220px;}
+.topnav_con ul{ width:677px; height:38px;}
+.topnav_con li{ float:left;}
+.topnav_con a{line-height:38px; padding-left:25px; }
+.topnav_con .wx{ background: url(img/i_wx_single.png) no-repeat; }
+.topnav_con .qq{ background:url(img/qq.png) no-repeat;}
+li i{ margin-left:10px;}
+.topnav_con .car{ background:url(img/car.png) no-repeat;}
+.topnav_con .dingd{ background:url(img/dingd.png) no-repeat;}
+.topnav_con .phone{ background:url(img/phone.png) no-repeat;}
+/* 顶部导航结束*/
+
+/* serch搜索开始*/
+.mili{ min-width:1220px; height:67px;}
+.mili a{ display:block; height:100%;}
+.logo{ background:url(img/logo.png)no-repeat; float:left; width:372px; height:67px; text-indent:-999em; }
+.search{ width:849px; height:67px; float:right;}
+
+.baby{ width:70px; height:33px; border-right:1px  solid #CCC; display:block; line-height:30px; background:#f5f5f5; text-align:center;font-size:16px; margin-top:20px; }
+input{ margin-left:70px; width:300px; height:30px; margin-top:-33px; border:2px solid #ff6699;}
+.bobo{ background:#ff6699; border:1px solid #ff6699 ; width:70px; height:30px;margin-top:-33px; margin-left:374px; text-align:center; line-height:30px; font-size:16px;}
+.bobo a{ color:#FFF;}
+/* serch搜索结束*/
+
+/*主导航开始*/
+.content{hight:41px;  min-width:1220px;background: #ff6699;}
+
+.nav{ main-width:1220px; margin:0 auto;}
+.nav li{ float:left;text-align:center; width:90px;}
+.nav .first{  padding-left:200px;}
+.nav a{ display: inline-block;line-height:41px; width:100px; color:#FFF; height:41px; font-size:16px;}
+.nav a:hover{ background:#ed3577;}
+/*主导航结束*/
+
+/*左导航开始*/
+.main{ hight:577px; min-width:1220px; background:url(img/img/lzl.ch.jpg) repeat-x  center 0;}
+.main_nr{ width:1220px;   margin:0 auto; height:577px; position:relative;}
+.manu{ position:absolute; width:223px; height:577px;  top:0; left:0; background:#FFF;}
+.rbox{ position:absolute; width:203px; height:422px;  top:0; right:0;}
+.dbox{position:absolute; width:998px; height:148px; left:223px; bottom:0;}
+.dbox li{ float:left; margin-left:18px;}
+dl{margin-left:20px; width:223px; height:120px; margin-top:13px; margin-bottom:18px; border-bottom:1px dashed #CCCCCC;}
+dt{ background:url(img/hot.png) no-repeat; color:#ff6699; font-size:20px; padding-left:20px;margin-bottom:10px;}
+dd{ line-height:25px;}
+i{ color:#ff6699;}
+/*左导航结束*/
+/*人气推荐单品开始*/
+.pel{main-width:1220px; height:50px;position:relative; border-bottom:1px solid #CCC;}
+.pel i{ background:url(img/img/wel_ico2.png) no-repeat; position:absolute; width:163px; height:26px; margin-top:20px; margin-left:66px;}
+
+.sidebar{ min-width:1220px; height:707px;}
+.l_side{ width:1220px; height:690px; margin-left:66px; margin-top:16px;}
+.l_side .side_3{ margin-top:20px;}
+.l_side li{ float:left; margin-left:22px; width:180px; border-bottom:1px dashed #999999;}
+ span{ color:#999; text-decoration:line-through;}
+.num{ padding-bottom:20px;}
+
+
+.day{ min-width:1220px; height:80px; position:relative;}
+.day i{ background:url(img/img/wel_ico2.png) no-repeat;  position:absolute; width:158px; height:26px; margin-left:67px; margin-bottom:10px; }
+
+.mei{ min-width:1220px; height:102px; position:relative;}
+.mei a{  margin:0 auto; position:absolute; margin-left:81px; margin-top:-14px;}
+
+/*人气推荐单品开始*/
+
+.subnav{min-width:1220px; height:626px; position:relative;}
+.subnav_1{width:1220px; height:591px; position:absolute;}
+.f_yi{ width:933px; height:53px; position:absolute; left:87px; font-size:18px;}
+.subnav_1 .f_con{ position:relative;}
+.subnav_1 ul{ width:939px; height:571px; border:1px solid #CCC; margin-left:80px; position:relative;}
+ .subnav_1  li{ width:181px; height:256px; float:left; padding-left:6px;}
+.subnav_1 .col_w{font-size:16px; text-align:center; line-height:32px; margin-top:10px;background:url(img/img/bar_bg.png) no-repeat; width:180px; height:32px; margin-top:-6px;}
+.subnav_1 .col_w a{color:#fff;}
+.sub_d{ margin-top:34px;}
+
+.r_box_r{width:244px; height:563px;  position:absolute;top:0; right:-60px;}
+.r_box_r ul{width:244px; height:520px; top:10px;; right:81px;}
+.r_box_r li{ width:235px; height:64px;  text-align:center; line-height:70px; margin-bottom:10px;}
+ .r_b_r{ float:right; font-size:14px; color:#CCC;}
+.r_b_l{ float:left; font-size:16px;}
+
+.r_box_r .r_x{ width:244px; height:40px; margin-top:23px; border:1px solid #CCC;}
+.r_box_r .pic{ width:40px; height:40px;}
+
+
+/*.zaz{ min-width:1220px; border:1px solid red; position:relative;}
+.zaizhi{ width:1220px; position:absolute; top:0px; left:30px;}
+.zazhi_1{ width:1220px; height:323px; border:1px solid #CCC; position:absolute;}
+.zazhi .zazhi_l li{ position:absolute; width:225px; height:284px; border:1px solid #CCC; float:left; margin-left:38px; margin-bottom:15px; margin-top:15px;}
+.zazhi_l p{ font-size:16px; margin-bottom:15px; margin-top:15px;}
+.zazhi_l .fs{ color:#999; font-size:14px;}*/
+
+
+.bottom_nav{min-width:1220px; height:234px; background:#CCC; position:relative;  }
+.bom{ position:absolute; }
+.bom li{ width:234px; height:214px; float:left;  margin-left:20px;}
+.bom li p{ color:#999; font-size:14px; text-align:center; margin-top:15px;}
+.bom li .col_hei{ color:#000; font-size:16px;}
+
+
+.b_nna li{ float:left; margin-left:15px; margin-top:15px;}
+.b_nna li a{ font-size:16px; color: #000;}
+
+
+.b_nna bbn_r{ float:right;}
+
+
+
+/*<div class="list">
+       <p class="list_1">    		
+                <p><a href="#">最热衣服好点</a><i><a href="#">更多好店</a>&gt;<i></p> 
+            	<a href="#">妖精的衣橱</a></p>
+                 <p>235件商品大大滴好</p>		
+       </p> 
+	   .r_box{ width:270px; height:591px; border:1px solid red;} 
+	   
+	   
+	   
+	   
+<div class="zaz">
+<div class="zazhi">
+  <ul class="zazhi_l">
+  		<li><p>小女人有恋物癖</p><img src="img/美丽说，发现、收藏、分享我的美丽点滴,让改变发生_files/333.jpg"/><p class="fs">88882个粉丝</p></li>
+        <li><p>小女人有恋物癖</p><img src="img/美丽说，发现、收藏、分享我的美丽点滴,让改变发生_files/333.jpg"/><p class="fs">88882个粉丝</p></li>
+        <li><p>小女人有恋物癖</p><img src="img/美丽说，发现、收藏、分享我的美丽点滴,让改变发生_files/333.jpg"/><p class="fs">88882个粉丝</p></li>
+        <li><p>小女人有恋物癖</p><img src="img/美丽说，发现、收藏、分享我的美丽点滴,让改变发生_files/333.jpg"/><p class="fs">88882个粉丝</p></li>
+        <li><p>小女人有恋物癖</p><img src="img/美丽说，发现、收藏、分享我的美丽点滴,让改变发生_files/333.jpg"/><p class="fs">88882个粉丝</p></li>
+  </ul>
+</div>
+</div>
+       
+       */
