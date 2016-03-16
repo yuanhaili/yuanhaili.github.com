@@ -10,7 +10,7 @@ body{ overflow:hidden;}
 
 .content{ position:absolute; top:0; left:0; z-index:1;}
 
-.home_page{ width:100%; background: #f1d797;/*background: url(../img/c33.jpg);*/ background-size:100% 100%; position:relative; top:0; left:0;}
+.home_page{ width:100%; background: #f28ae0;/*background: url(../img/c33.jpg);*/ background-size:100% 100%; position:relative; top:0; left:0;}
 .home_page img{ width:100%; height:100%;}
 
 #clock{ position:absolute; bottom:2%; left:2%; width:200px; height:200px; }
@@ -22,7 +22,7 @@ body{ overflow:hidden;}
 #clock span.big_scaler em {font-style:normal; position:absolute; top:16px; width:40px; left:50%; margin-left:-20px; text-align:center;}
 #clock .cap {width:12px; height:12px; position:absolute; background:#666; left:50%; top:50%; margin-left:-6px; margin-top:-6px; border-radius:50%;}
 /*css_worker*/
-.css_worker{ position:relative; top:0; left:0; background:url(../img/6.jpg) no-repeat; background-size:100% 100%;}
+.css_worker{ position:relative; top:0; left:0;background: #9eb4cd; /*background:url(../img/6.jpg) no-repeat;*/ background-size:100% 100%;}
 .css_worker .css_worker_box{position:absolute; top:0; left:0; width:90%; height:100%; margin:0 auto; }
 .css_worker .css_worker_box .css_main{ height:70%; width:90%;margin-top:80px; margin-left:10%;position:relative; top:0; left:0;}
 
@@ -42,7 +42,7 @@ body{ overflow:hidden;}
 
 
 /*js_worker*/
-.js_worker{ position:relative; top:0; left:0; background:url(../img/7.jpg) no-repeat; background-size:100% 100%;}
+.js_worker{ position:relative; top:0; left:0;background: #db91e0;/*background:url(../img/7.jpg) no-repeat;*/ background-size:100% 100%;}
 .js_worker .js_worker_box{position:absolute; top:0; left:0; width:90%; height:100%; }
 .js_worker .js_worker_box .js_box{  height:80%; width:90%;margin-top:80px; margin-left:10%;}
 .js_worker .js_worker_box .js_box div{ width:22%; height:45%; float:left;cursor:pointer; margin:1% 1%; position:relative; top:0; left:0; overflow:hidden;}
@@ -56,7 +56,7 @@ body{ overflow:hidden;}
 
 /*H5*/
 .H5{ position:relative; top:0; left:0;}
-.H5 .H5_box{ position:absolute; top:0; left:0; width:100%; height:100%; background: url(../img/c1.jpg)no-repeat; background-size:100% 100%;}
+.H5 .H5_box{ position:absolute; top:0; left:0; width:100%; height:100%;background: #4484c4; /*background: url(../img/c1.jpg) no-repeat;*/ background-size:100% 100%;}
 .H5 .H5_box .H5_main{  height:80%; width:90%;margin:100px auto;}
 #div1{ width:12%; height:40%; margin:20% auto; -webkit-transform-style:preserve-3d; -webkit-transform:perspective(800px) rotateY(0deg);}
 #H5_ul{ width:100%; height:100%; position:relative;-webkit-transform-style:preserve-3d; -webkit-transform:rotateX(0deg);}
