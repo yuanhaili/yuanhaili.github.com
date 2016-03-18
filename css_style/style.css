@@ -70,8 +70,8 @@ body{ overflow:hidden;}
 .myself .myself_box{ position:absolute; top:0; left:0; width:100%; height:100%;background: #399; /*background: url(../img/c2.jpg)no-repeat;*/ /*background-size:100% 100%;*/}
 
 
-.myself .myself_box .myself_box_main .myself_box_main_pic{position: absolute;left: 50%;top: 30%;margin-left: -70px; width: 140px;height:160px;border-radius: 359px;overflow: hidden; }
-.myself .myself_box .myself_box_main .myself_box_main_pic img{width: 100%;height: 100%;}
+.myself .myself_box .myself_box_main_pic{position: absolute;left: 50%;top: 30%;margin-left: -70px; width: 140px;height:160px;border-radius: 50%;overflow: hidden; border: 1px solid red;z-index: 5;}
+.myself .myself_box .myself_box_main_pic img{display: block; width: 100%;}
 
 
 /*.myself .myself_box .myself_box_main ul li span{ width:20rem; height:1rem;line-height:1rem; display:inline-block; font-size:1rem; margin-top:0.2rem;}
