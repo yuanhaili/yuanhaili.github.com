@@ -58,11 +58,13 @@ body{ overflow:hidden;}
 
 /*H5*/
 .H5{ position:relative; top:0; left:0;}
-.H5 .H5_box{ position:absolute; top:0; left:0; width:100%; height:100%;background: #399; /*background: url(../img/c1.jpg) no-repeat;*/ background-size:100% 100%;}
+.H5 .H5_box{ position:absolute; top:0; left:0; width:100%; height:100%;background: #21ab68; /*background: url(../img/c1.jpg) no-repeat;*/ background-size:100% 100%;}
 .H5 .H5_box .H5_main{  height:80%; width:90%;margin:100px auto;}
 #div1{ width:12%; height:40%; margin:20% auto; -webkit-transform-style:preserve-3d; -webkit-transform:perspective(800px) rotateY(0deg);}
 #H5_ul{ width:100%; height:100%; position:relative;-webkit-transform-style:preserve-3d; -webkit-transform:rotateX(0deg);}
-#H5_ul li{ width:100%; height:100%; border:1px solid black; background:#dfdf6f; position:absolute; left:0; top:0; -webkit-transform:rotateY(0deg) translateZ(0px); -webkit-transition:0.7s all ease-out; text-align:center; /*line-height:100%;*/ font-size:50px;}
+#H5_ul li{ width:100%; height:100%;border-radius: 5px; background:#2a5f90; position:absolute; left:0; top:0; -webkit-transform:rotateY(0deg) translateZ(0px); -webkit-transition:0.7s all ease-out;}
+#H5_ul li p{height: 50%; padding-left: 10px; padding-top: 40px;text-align: center; color: #fff;}
+#H5_ul li p span{display: block;font-size: 14px;}
 
 .myself{ position:relative; top:0; left:0;}
 .myself .myself_box{ position:absolute; top:0; left:0; width:100%; height:100%;background: #1d4e36;  /*background: url(../img/c2.jpg)no-repeat;*/ /*background-size:100% 100%;*/}

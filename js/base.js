@@ -198,6 +198,10 @@ function addEvent(obj,sEv,fn){
 	}
 }
 
+//随机数
+function rnd(n,m){
+    return parseInt(Math.random()*(m-n))+n;
+}
 
 
 

@@ -1,5 +1,6 @@
 // JavaScript Document
 DOMReady(function(){
+	// alert('正在优化修改，请稍后访问');
 	var oBox=document.getElementById('box');
 	
 	//导航运动	
@@ -210,15 +211,15 @@ DOMReady(function(){
 	var aDiv2 =oCile.children;
 	var oCile2=document.getElementById('js_worker_cile2');
 	var oCile3=document.getElementById('js_worker_cile3');
-	var oCile4=document.getElementById('js_worker_cile4');
+	// var oCile4=document.getElementById('js_worker_cile4');
 	var aDiv3 =oCile2.children;
 	var aDiv4 =oCile3.children;
-	var aDiv5 =oCile4.children;
+	// var aDiv5 =oCile4.children;
 	for(var i=0;i<aDiv2.length;i++){
 		through(aDiv2[i]);
 		through(aDiv3[i]);
 		through(aDiv4[i]);
-		through(aDiv5[i]);
+		// through(aDiv5[i]);
 	}
 	//aDiv2每一个效果
 	for(var i=0;i<aDiv2.length;i++){
@@ -232,9 +233,9 @@ DOMReady(function(){
 			aDiv4[i].onclick=function(){
 				window.open('twjs/js_page3-'+(index+1)+'.html','_black')	
 			};
-			aDiv5[i].onclick=function(){
-				window.open('twjs/js_page4-'+(index+1)+'.html','_black')	
-			};		
+			// aDiv5[i].onclick=function(){
+			// 	window.open('twjs/js_page4-'+(index+1)+'.html','_black')	
+			// };		
 		})(i);
 	}
 	//css作品-js
@@ -378,44 +379,47 @@ DOMReady(function(){
 	var oSec=document.querySelector('#clock .sec');
 	
 	//生成刻度
-	for(var i=0;i<60;i++)
-	{
-		var oS=document.createElement('span');
+	// for(var i=0;i<60;i++)
+	// {
+	// 	var oS=document.createElement('span');
 		
-		if(i%5)	//小的
-		{
-			oS.className='scaler';
-		}
-		else
-		{
-			oS.className='big_scaler';
-			if(i==0)
-			{
-				oS.innerHTML='<em>12<\/em>';
-			}
-			else
-			{
-				oS.innerHTML='<em>'+i/5+'<\/em>';
-			}
-			oS.children[0].style.WebkitTransform='rotate('+-6*i+'deg)';
-		}
+	// 	if(i%5)	//小的
+	// 	{
+	// 		oS.className='scaler';
+	// 	}
+	// 	else
+	// 	{
+	// 		oS.className='big_scaler';
+	// 		if(i==0)
+	// 		{
+	// 			oS.innerHTML='<em>12<\/em>';
+	// 		}
+	// 		else
+	// 		{
+	// 			oS.innerHTML='<em>'+i/5+'<\/em>';
+	// 		}
+	// 		oS.children[0].style.WebkitTransform='rotate('+-6*i+'deg)';
+	// 	}
 		
-		oS.style.WebkitTransform='rotate('+6*i+'deg)';
+	// 	oS.style.WebkitTransform='rotate('+6*i+'deg)';
 		
-		oDiv.appendChild(oS);
-	}
+	// 	oDiv.appendChild(oS);
+	// }
 	
-	//走起来
-	function tick()
-	{
-		var oDate=new Date();
+	// //走起来
+	// function tick()
+	// {
+	// 	var oDate=new Date();
 		
-		oHour.style.WebkitTransform='rotate('+(oDate.getHours()+oDate.getMinutes()/60)*30+'deg)';
-		oMin.style.WebkitTransform='rotate('+(oDate.getMinutes()+oDate.getSeconds()/60)*6+'deg)';
-		oSec.style.WebkitTransform='rotate('+(oDate.getSeconds()+oDate.getMilliseconds()/1000)*6+'deg)';
-	}
+	// 	oHour.style.WebkitTransform='rotate('+(oDate.getHours()+oDate.getMinutes()/60)*30+'deg)';
+	// 	oMin.style.WebkitTransform='rotate('+(oDate.getMinutes()+oDate.getSeconds()/60)*6+'deg)';
+	// 	oSec.style.WebkitTransform='rotate('+(oDate.getSeconds()+oDate.getMilliseconds()/1000)*6+'deg)';
+	// }
 	
-	tick();
-	setInterval(tick, 30);
+	// tick();
+	// setInterval(tick, 30);
+
+	//3d爆炸效果
+
 
 });
